@@ -1,14 +1,12 @@
 <template>
+<!-- ask teacher why this component cant be called -->
   <v-app>
-   <v-toolbar color="#d8c4c4" >
-     <span class="font-weight-light">Find your perfect set</span>
+   <v-toolbar app dark>
+     <span class="font-weight-light">SerenySHOP</span>
    </v-toolbar>  
 
    <v-content class="mt-4">
-     <v-row>     
-       <v-col class="md-5 my-5">
-        <cart v-on:pay="pay()" v-on:remove-from-cart="removeFromCart($event)" :items="cart"></cart>
-      </v-col>
+     <v-row>
       <v-col class="md-7">
        <v-row>
          <v-col class="md-6" :key="product.id" v-for="product in products">
@@ -19,18 +17,16 @@
             ></product>
      </v-col> 
     </v-row>
- 
+      <v-col class="md-5 my-5">
+        <cart v-on:pay="pay()" v-on:remove-from-cart="removeFromCart($event)" :items="cart"></cart>
+      </v-col>
       </v-col>
      </v-row>
    </v-content>
   </v-app>
 </template>
 
-
-  // export default {
-  //   name: 'HelloWorld',
-
-  <script>
+<script>
 import products from "@/products.json";
 import Product from "@/components/Product.vue";
 import Cart from "@/components/Cart.vue";
@@ -69,4 +65,3 @@ export default {
   }
 };
 </script>
-
