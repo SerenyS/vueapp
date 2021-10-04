@@ -16,6 +16,8 @@
               :isInCart="isInCart(product)"
               v-on:add-to-cart="addToCart(product)"
               :product="product"
+              v-on:showModal="showModal()"
+           
             ></product>
      </v-col> 
     </v-row>
@@ -27,28 +29,36 @@
 </template>
 
 
-  // export default {
-  //   name: 'HelloWorld',
-
   <script>
 import products from "@/products.json";
 import Product from "@/components/Product.vue";
 import Cart from "@/components/Cart.vue";
+// import Modal from "@/components/Modal.vue";
+
 
 export default {
     name: 'Main',
     components: {
     Product,
-    Cart
+    Cart,
+    // Modal,
+   
   },
-
   data() {
     return {
+      dialog:false,
       products,
       cart: []
     };
   },
   methods: {
+
+    showModal(){
+      //  this.modal.dialog(true);
+      alert("Modal Triggered");
+      this.dialog=true;
+    },
+    
     addToCart(product) {
       this.cart.push(product);
     },
@@ -64,9 +74,8 @@ export default {
     },
     pay() {
       this.cart = [];
-      alert("Thanks! Shopping successfully completed. ");
+      alert("Thanks for shopping with us!");
     }
   }
 };
 </script>
-
