@@ -4,83 +4,96 @@
       "title": "Peach Make Up Set",
       "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "price": "110",
-      "description":"Peach Description"
+      "description":"Peach Description",
+      "category":"Make Up"
     },
     {
       "id": "2",
       "title": "Purple Make Up Set",
       "image": "https://images.unsplash.com/photo-1617176892739-98fc49fdcbe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
       "price": "140",
-      "description":"Purple Description"
+      "description":"Purple Description",
+      "category":"Make Up"
+
     },
     {
       "id": "3",
       "title": "Yellow Skin Care Set",
       "image": "https://images.unsplash.com/photo-1531751519425-e1fa9110434b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
       "price": "120",
-      "description":"Yellow Description"
+      "description":"Yellow Description",
+      "category":"Make Up"
     },
     {
       "id": "4",
       "title": "Fancy Make Up Set",
       "image": "https://images.unsplash.com/photo-1598528738936-c50861cc75a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "price": "240",
-      "description":"Fancy Description"
+      "description":"Fancy Description",
+      "category":"Make Up"
     },
     {
       "id": "5",
       "title": "VIP Set",
       "image": "https://images.unsplash.com/photo-1598452963314-b09f397a5c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
       "price": "140",
-      "description":"VIP Description"
+      "description":"VIP Description",
+      "category":"Make Up"
     },
     {
       "id": "6",
       "title": "Natural Beauty Set",
       "image": "https://images.unsplash.com/photo-1571875257727-256c39da42af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "price": "140",
-      "description":"Natural Description"
+      "description":"Natural Description",
+      "category":"Make Up"
     },
     {
       "id": "7",
       "title": "Night Out Set",
       "image": "https://images.unsplash.com/photo-1559828350-dbd975c52096?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "price": "140",
-      "description":"Night Out Description"
+      "description":"Night Out Description",
+      "category":"Make Up"
     },
     {
       "id": "8",
       "title": "Drugstore Set",
       "image": "https://images.unsplash.com/photo-1559980828-dc98e2c105d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
       "price": "140",
-      "description":"Drugstore Description"
+      "description":"Drugstore Description",
+      "category":"Make Up"
     },
     {
       "id": "9",
       "title": "Earthy Perfume",
       "image": "https://images.unsplash.com/photo-1605619082574-e92eee603b95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
       "price": "140",
-      "description":"Earthy Description"
+      "description":"Earthy Description",
+      "category":"Perfume"
     },
     {
       "id": "10",
       "title": "Pinky Perfume",
       "image": "https://images.unsplash.com/photo-1588599335525-667ed6a4cdf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=915&q=80",
       "price": "1000",
-      "description":"Pinky Description"
+      "description":"Pinky Description",
+      "category":"Perfume"
     },
     {
       "id": "11",
       "title": "Givenchy Perfume",
       "image": "https://images.unsplash.com/photo-1591375275088-c37c83d2472d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=921&q=80",
       "price": "140",
-      "description":"Givenchy Description"
+      "description":"Givenchy Description",
+      "category":"Perfume"
     },
     {
       "id": "12",
       "title": "Victory Path Perfume",
       "image": "https://images.unsplash.com/photo-1629788388012-b460c4d520b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
       "price": "140",
-      "description":"Victory Description"
+      "description":"Victory Description",
+      "category":"Perfume"
     }
   ]

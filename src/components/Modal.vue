@@ -8,12 +8,12 @@
       >
         <template v-slot:activator="{ on, attrs }">
           <v-btn
-            color="primary"
+            color="#efeae5"
             dark
             v-bind="attrs"
             v-on="on"
           >
-            Open Dialog
+            Description
           </v-btn>
         </template>
         <v-card>
@@ -28,14 +28,7 @@
               text
               @click="dialog = false"
             >
-              Disagree
-            </v-btn>
-            <v-btn
-              color="black"
-              text
-              @click="dialog = false"
-            >
-              Agree
+              Close
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -46,11 +39,14 @@
 
 <script> 
  export default {
-      data() {
+   name:"modal",
+   props:{product:Object},
+   data() {
     return {
       dialog: false,
     }
  },
-
+  
+  
   };
 </script>
